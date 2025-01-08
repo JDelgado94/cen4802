@@ -1,16 +1,16 @@
-/*
-* Jorge Delgado
-* CEN4802
+/**
+* @author Jorge Delgado
 * */
 
 import java.util.Scanner;
 
 public class Main {
 
-     /*
-     Fibonacci Method:
-     Determines the nth term in the Fibonacci Sequence
-     *------------------------------------------------------------------------------------------------------------------ */
+     /**
+      Return the nth term in the fibonacci sequence
+      @param n A number provided by the user to determine the number's position in the fibonacci sequence.
+      @return the nth term
+      */
      public static int fibonacci(int n) {
           if (n <= 1) {
                return n;
